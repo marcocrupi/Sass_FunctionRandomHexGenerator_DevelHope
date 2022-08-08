@@ -1,41 +1,70 @@
-@keyframes random {
+@keyframes randomBodyColor {
   15% {
-    background-color: #CC10EA;
+    background-color: #BC64AC;
   }
   30% {
-    background-color: #A4DDDB;
+    background-color: #B8A027;
+  }
+  35% {
+    background-color: #A09A7D;
   }
   45% {
-    background-color: #629AB5;
+    background-color: #06DE7A;
   }
   60% {
-    background-color: #09FD93;
+    background-color: #EE2096;
+  }
+  65% {
+    background-color: #D0701B;
   }
   75% {
-    background-color: #C64646;
+    background-color: #4DC402;
   }
   90% {
-    background-color: #F15200;
+    background-color: #29B8C9;
+  }
+  95% {
+    background-color: #8FE4A8;
   }
 }
-@keyframes randomColorFont {
+@keyframes randomDivColor {
   15% {
-    color: #3EE2B9;
+    background-color: #95DC6D;
   }
   30% {
-    color: #25F3EF;
+    background-color: #DBAD72;
   }
   45% {
-    color: #E89F67;
+    background-color: #BC6C17;
   }
   60% {
-    color: #DC1DDB;
+    background-color: #14F1B1;
   }
   75% {
-    color: #F887D2;
+    background-color: #3D70BD;
   }
   90% {
-    color: #37026E;
+    background-color: #4D0ECB;
+  }
+}
+@keyframes randomFontColor {
+  15% {
+    color: #6AFE09;
+  }
+  30% {
+    color: #D73B70;
+  }
+  45% {
+    color: #69FE40;
+  }
+  60% {
+    color: #0B2728;
+  }
+  75% {
+    color: #A1CAD2;
+  }
+  90% {
+    color: #048FED;
   }
 }
 html,
@@ -46,8 +75,8 @@ body {
   height: 100%;
   width: 100%;
   background-color: #fff;
-  -webkit-animation: random 10s infinite;
-  animation: random 10s infinite;
+  -webkit-animation: randomBodyColor 10s infinite;
+  animation: randomBodyColor 10s infinite;
 }
 
 div {
@@ -59,13 +88,13 @@ div {
   height: 4rem;
   width: 60%;
   background-color: rgb(0, 0, 0);
-  -webkit-animation: random 10s infinite;
-  animation: random 10s infinite;
+  -webkit-animation: randomDivColor 10s infinite;
+  animation: randomDivColor 10s infinite;
 }
 div h1 {
   color: rgb(0, 0, 0);
-  -webkit-animation: randomColorFont 10s infinite;
-  animation: randomColorFont 10s infinite;
+  -webkit-animation: randomFontColor 10s infinite;
+  animation: randomFontColor 10s infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
