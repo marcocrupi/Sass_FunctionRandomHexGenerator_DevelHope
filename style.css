@@ -1,41 +1,41 @@
 @keyframes random {
   15% {
-    background-color: #5766BB;
+    background-color: #CC10EA;
   }
   30% {
-    background-color: #5E882B;
+    background-color: #A4DDDB;
   }
   45% {
-    background-color: #EA2316;
+    background-color: #629AB5;
   }
   60% {
-    background-color: #E38E1B;
+    background-color: #09FD93;
   }
   75% {
-    background-color: #276F5C;
+    background-color: #C64646;
   }
   90% {
-    background-color: #1070B9;
+    background-color: #F15200;
   }
 }
 @keyframes randomColorFont {
   15% {
-    color: #F66352;
+    color: #3EE2B9;
   }
   30% {
-    color: #5AB16F;
+    color: #25F3EF;
   }
   45% {
-    color: #05FFA2;
+    color: #E89F67;
   }
   60% {
-    color: #9278D5;
+    color: #DC1DDB;
   }
   75% {
-    color: #2722C6;
+    color: #F887D2;
   }
   90% {
-    color: #AA0604;
+    color: #37026E;
   }
 }
 html,
