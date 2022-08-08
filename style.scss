@@ -13,25 +13,75 @@
   @return unquote("#"+"#{$rgb}");
 }
 
-html,body {
-  background-color: random-hex();
+@keyframes random {
+  15% {
+    background-color: random-hex();
+  }
+  30% {
+    background-color: random-hex();
+  }
+  45% {
+    background-color: random-hex();
+  }
+  60% {
+    background-color: random-hex();
+  }
+  75% {
+    background-color: random-hex();
+  }
+  90% {
+    background-color: random-hex();
+  }
+}
+
+@keyframes randomColorFont {
+  15% {
+    color: random-hex();
+  }
+  30% {
+    color: random-hex();
+  }
+  45% {
+    color: random-hex();
+  }
+  60% {
+    color: random-hex();
+  }
+  75% {
+    color: random-hex();
+  }
+  90% {
+    color: random-hex();
+  }
+}
+
+html,
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
+
+  background-color: #fff;
+  -webkit-animation: random 10s infinite;
+  animation: random 10s infinite;
 }
 
 div {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
   height: 4rem;
   width: 60%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  -webkit-animation: random 10s infinite;
+  animation: random 10s infinite;
   h1 {
-    color: white;
+    color: rgb(0, 0, 0);
+    -webkit-animation: randomColorFont 10s infinite;
+    animation: randomColorFont 10s infinite;
   }
 }

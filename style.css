@@ -1,10 +1,53 @@
-html, body {
-  background-color: #45A65B;
+@keyframes random {
+  15% {
+    background-color: #5766BB;
+  }
+  30% {
+    background-color: #5E882B;
+  }
+  45% {
+    background-color: #EA2316;
+  }
+  60% {
+    background-color: #E38E1B;
+  }
+  75% {
+    background-color: #276F5C;
+  }
+  90% {
+    background-color: #1070B9;
+  }
+}
+@keyframes randomColorFont {
+  15% {
+    color: #F66352;
+  }
+  30% {
+    color: #5AB16F;
+  }
+  45% {
+    color: #05FFA2;
+  }
+  60% {
+    color: #9278D5;
+  }
+  75% {
+    color: #2722C6;
+  }
+  90% {
+    color: #AA0604;
+  }
+}
+html,
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
+  background-color: #fff;
+  -webkit-animation: random 10s infinite;
+  animation: random 10s infinite;
 }
 
 div {
@@ -15,10 +58,14 @@ div {
   border-radius: 50px;
   height: 4rem;
   width: 60%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  -webkit-animation: random 10s infinite;
+  animation: random 10s infinite;
 }
 div h1 {
-  color: white;
+  color: rgb(0, 0, 0);
+  -webkit-animation: randomColorFont 10s infinite;
+  animation: randomColorFont 10s infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
