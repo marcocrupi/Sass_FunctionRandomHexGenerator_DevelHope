@@ -85,8 +85,8 @@ div {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  height: 4rem;
-  width: 60%;
+  height: 6rem;
+  width: 80%;
   background-color: rgb(0, 0, 0);
   -webkit-animation: randomDivColor 10s infinite;
   animation: randomDivColor 10s infinite;
